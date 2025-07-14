@@ -1,7 +1,10 @@
-const linkedin = "https://www.linkedin.com/in/ryan-qui%C3%B1ones-b7a274176/";
-const github = "https://github.com/ryanquin";
-const email = "mailto:ryanquin.02@gmail.com";
-var today = new Date();
+const linkedin = "https://www.linkedin.com/in/lester-qui%C3%B1ones-95b012220/";
+const github = "https://github.com/LesterQuin";
+const facebook = "https://www.facebook.com/LesterQuin";
+const instagram = "https://www.instagram.com/acether.png";
+const email = "mailto:lehzter@gmail.com";
+
+const today = new Date();
 
 function convertTZ(date, tzString) {
   return new Date(
@@ -11,79 +14,70 @@ function convertTZ(date, tzString) {
   );
 }
 
-about = [
+const about = [
   "<br>",
-  "Hey, I'm Ryan Quiñones! 👋",
+  "Hey, I'm Lester Quiñones! 👋",
   "<br>",
-  "Hi! My name is Ryan, and I am a passionate Full Stack Developer. My experience in web",
-  "development has given me a strong foundation in both front-end and back-end",
-  "technologies. During my career, I have had the chance to work on multiple projects from",
-  "start to finish. I am adept at problem-solving and is always eager to learn and adapt to",
-  "new technologies. I am looking to join a company that values innovation, collaboration,",
-  "and continuous learning and am confident that my enthusiasm and drive will help me",
-  "succeed in any role that leverages my passion for technology.",
+  "I'm a passionate Full Stack Developer focused on crafting scalable and performant web applications.",
+  "Experienced in both front-end and back-end technologies, I bring ideas to life through clean, efficient code.",
+  "I enjoy solving challenging problems and love to explore new technologies.",
   "<br>",
-  "Hope you explore and enjoy this website! 🙏🏻",
+  '📄 <a href="images/Lester_Quinones_Resume.pdf" download target="_blank">Download My Resume</a>',
+  "<br>",
+  "Thanks for stopping by! Hope you enjoy exploring this terminal-style portfolio. 🙏🏻",
   "<br>",
 ];
 
-banner = [
+const banner = [
   "<br>",
-  '<span class = "index">' +
-    String(convertTZ(today, "Asia/Manila")) +
-    "</span>",
-  '<span class="index">Ryan Quinones </span>',
+  `<span class="index">${convertTZ(today, "Asia/Manila")}</span>`,
+  '<span class="index">Lester Quiñones</span>',
   "<br>",
-  "██████╗   ██╗  ██╗    ██╗    ███╗  ██╗",
-  "██╔══██╗  ╚██╗██╔╝   ████╗   ████╗ ██║",
-  "██████╔╝   ╚███╔╝   ██╔███║  ██╔██╗██║",
-  "██╔══██╗    ██║     ██║ ██║  ██║╚████║",
-  "██║  ██║    ██║     ██║  ██║ ██║ ╚══██║",
+  "██╗     ███████╗███████╗████████╗███████╗██████╗ ",
+  "██║     ██╔════╝██╔════╝╚══██╔══╝██╔════╝██╔══██╗",
+  "██║     █████╗  ███████╗   ██║   █████╗  ██████╔╝",
+  "██║     ██╔══╝  ╚════██║   ██║   ██╔══╝  ██╔═══╝ ",
+  "███████╗███████╗███████║   ██║   ███████╗██║╚██╗██╗",
+  "╚══════╝╚══════╝╚══════╝   ╚═╝   ╚══════╝╚═╝ ╚═╝╚═╝",
   "<br>",
-  '<span class="color2">Welcome to my Portfolio Website..</span>',
-  '<span class="color2">For a list of available commands, type</span> <span class="command">\'help\'</span><span class="color2">.</span>',
-  // '<span class="color2"></span>',
+  '<span class="color2">Welcome to my interactive portfolio terminal!</span>',
+  '<span class="color2">Type</span> <span class="command">help</span> <span class="color2">to get started.</span>',
   "<br>",
 ];
 
-help = [
+const help = [
   "<br>",
-  '👦🏻  <span class="command">About</span>          About Me',
-  '🌏  <span class="command">Social</span>         Display social networks',
-  '🏗  <span class="command">Projects</span>       View coding projects',
-  '📧  <span class="command">Email</span>          Reach me through email',
-  '🧹  <span class="command">Clear</span>          Clear the terminal',
-  '❓  <span class="command">Help</span>           Open the help menu',
-  '🕰  <span class="command">History</span>        View command history',
-  '👋  <span class="command">Exit</span>           Close the tab and exit',
-  "<br>",
-];
-
-social = [
-  "<br>",
-  "Enter the name of any of the following or simply click the links...",
-  "<br>",
-  'Linkedin       <a href="' +
-    linkedin +
-    '" target="_blank">linkedin/ryanquinones' +
-    "</a>",
-  'Github         <a href="' +
-    github +
-    '" target="_blank">github/ryanquinones' +
-    "</a>",
+  '👦🏻  <span class="command">about</span>       About Me',
+  '🌐  <span class="command">social</span>      Social Media Links',
+  '💼  <span class="command">projects</span>    View My Projects',
+  '✉️  <span class="command">email</span>       Send Me an Email',
+  '🧹  <span class="command">clear</span>       Clear the Terminal',
+  '❓  <span class="command">help</span>        Show Help Menu',
+  '🕒  <span class="command">history</span>     View Command History',
+  '👋  <span class="command">exit</span>        Exit the Terminal',
   "<br>",
 ];
 
-projects = [
+const social = [
   "<br>",
-  '<span class="command">1. Terminal Like Portfolio Website</span>',
+  "Feel free to click or type any platform below:",
   "<br>",
+  `🔗 Linkedin:   <a href="${linkedin}" target="_blank">linkedin/lesterquinones</a>`,
+  `🐱 Github:     <a href="${github}" target="_blank">github/lesterquinones</a>`,
+  `📘 Facebook:   <a href="${facebook}" target="_blank">facebook/lesterquinones</a>`,
+  `📷 Instagram:  <a href="${instagram}" target="_blank">instagram/acether.png</a>`,
   "<br>",
-  '<span class="command">2. My Old Portfolio Website',
+];
+
+const projects = [
   "<br>",
+  '🚚 <span class="command"><a href="https://storagemart.com.ph/" target="_blank">StorageMart</a></span>',
+  '📊 <span class="command"><a href="https://www.attendance.storagemart.com.ph/" target="_blank">Attendance Monitoring</a></span>',
+  '🏢 <span class="command"><a href="https://bcstechnology.com.au/" target="_blank">BCS Technology</a></span>',
+  '💰 <span class="command"><a href="https://wealthlander.com.au/" target="_blank">Wealthlander</a></span>',
+  '🏎 <span class="command"><a href="https://www.cameroncrickracing.com.au/" target="_blank">Cameron Crick Racing</a></span>',
+  '🌐 <span class="command"><a href="https://lesterquin.github.io/lquinones/" target="_blank">Portfolio Website</a></span>',
   "<br>",
-  '<span class="command">3. My Main Portfolio Website',
-  "<br>",
-  'Click the following links to access all my projects: <a href = "https://github.com/ryanquin" target="_blank">(Github)</a>',
+  `View more on GitHub: <a href="${github}" target="_blank">github.com/LesterQuin</a>`,
   "<br>",
 ];
