@@ -18,13 +18,13 @@ const about = [
   "<br>",
   "Hey, I'm Lester Quiñones! 👋",
   "<br>",
-  "I'm a passionate Full Stack Developer focused on crafting scalable and performant web applications.",
-  "Experienced in both front-end and back-end technologies, I bring ideas to life through clean, efficient code.",
-  "I enjoy solving challenging problems and love to explore new technologies.",
+  "I'm a passionate Full Stack Developer focused <br>on crafting scalable and performant web applications.",
+  "Experienced in both front-end and back-end technologies, <br> I bring ideas to life through clean, efficient code.",
+  "I enjoy solving challenging problems <br> and love to explore new technologies.",
   "<br>",
   '📄 <a href="images/Lester_Quinones_Resume.pdf" download target="_blank">Download My Resume</a>',
   "<br>",
-  "Thanks for stopping by! Hope you enjoy exploring this terminal-style portfolio. 🙏🏻",
+  "Thanks for stopping by! Hope you enjoy <br> exploring this terminal-style portfolio. 🙏🏻",
   "<br>",
 ];
 
