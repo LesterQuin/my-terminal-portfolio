@@ -76,7 +76,7 @@ const projects = [
   '🏢 <span class="command"><a href="https://bcstechnology.com.au/" target="_blank">BCS Technology</a></span>',
   '💰 <span class="command"><a href="https://wealthlander.com.au/" target="_blank">Wealthlander</a></span>',
   '🏎 <span class="command"><a href="https://www.cameroncrickracing.com.au/" target="_blank">Cameron Crick Racing</a></span>',
-  '🌐 <span class="command"><a href="https://lesterquin.github.io/lquinones/" target="_blank">Portfolio Website</a></span>',
+  '🌐 <span class="command"><a href="https://lesterquin.github.io/MyPorfolio/" target="_blank">Portfolio Website</a></span>',
   "<br>",
   `View more on GitHub: <a href="${github}" target="_blank">github.com/LesterQuin</a>`,
   "<br>",
