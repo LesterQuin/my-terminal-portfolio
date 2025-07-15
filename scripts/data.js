@@ -1,6 +1,6 @@
 const linkedin = "https://www.linkedin.com/in/lester-qui%C3%B1ones-95b012220/";
 const github = "https://github.com/LesterQuin";
-const facebook = "https://www.facebook.com/LesterQuin";
+const facebook = "https://www.facebook.com/lester.quin17/";
 const instagram = "https://www.instagram.com/acether.png";
 const email = "mailto:lehzter@gmail.com";
 
